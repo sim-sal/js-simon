@@ -12,24 +12,34 @@
     <title>Simon Says</title>
 </head>
 <body>
-    
-    <!-- bottone -->
-    <button id="my-button">Genera numeri col countdown</button>
 
-    <!-- timer -->
-    <h1 id="time"></h1>
+    <div class="card">
 
-    <!-- i 5 numeri da ricordare -->
-    <div>
-        <h2>Ricorda questi numeri:</h2>
-        <h5 id="numbers"></h5>
+        <div class="up">
+
+            <!-- timer -->
+            <h1 id="time"></h1>
+
+            <!-- bottone -->
+            <button id="my-button">Genera numeri col countdown</button>
+
+        </div>
+
+        <!-- i 5 numeri da ricordare -->
+        <div class="middle">
+            <h2>Ricorda questi numeri:</h2>
+            <h5 id="numbers"></h5>
+        </div>
+
+        <!-- numeri indovinati -->
+        <h5 id="numeri-indovinati">I numeri che hai indovinato sono: </h5>
+
+        <!-- totale numeri indovinati -->
+        <h5 id="tot-numeri-indovinati"></h5>
+
     </div>
-
-    <!-- numeri indovinati -->
-    <h5 id="numeri-indovinati">I numeri che hai indovinato sono: </h5>
-
-    <!-- totale numeri indovinati -->
-    <h5 id="tot-numeri-indovinati"></h5>
+    
+    
 
     <!-- js -->
     <script src="js/main.js"></script>

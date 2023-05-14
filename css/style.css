@@ -1,8 +1,33 @@
+.card{
+    background-color: rgb(202, 202, 202);
+    width: 50%;
+    border-radius: 10px;
+}
+
+.up{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle{
+    background-color: rgb(136, 136, 136);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 #numbers{
     font-size: 30px;
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 
 #time{
-    color: red;
+    color: rgb(161, 1, 1);
+    text-shadow: 4px 4px rgb(155, 155, 155);
+}
+
+#my-button{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
 }
