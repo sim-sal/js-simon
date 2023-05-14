@@ -2,7 +2,7 @@
 let start = document.getElementById("my-button");
 
 // settiamo la veriabile per i secondi e mostriamoli in pagina
-let seconds = 5;
+let seconds = 30;
 
 // settiamo la varibile per i numeri indovinati
 let totNumeriIndovinati = 0;
@@ -37,8 +37,12 @@ start.addEventListener('click',
                             totNumeriIndovinati++;
                             console.log(totNumeriIndovinati);
 
-                            // mostriamo in pagina quanti e quali numeri sono stati indovinati
-                            document.getElementById("numeri-indovinati").innerHTML = "Il totale dei numeri che hai indovinato è: " + totNumeriIndovinati;
+                            // mostriamo in pagina quanti numeri sono stati indovinati
+                            document.getElementById("tot-numeri-indovinati").innerHTML = "Il totale dei numeri che hai indovinato è: " + totNumeriIndovinati;
+
+                            // mostriamo in pagina quali numeri sono stati indovinati
+                            document.getElementById("numeri-indovinati").innerHTML += userNumbers + " , ";
+
                         }
                     }
 
